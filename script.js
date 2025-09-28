@@ -2,7 +2,7 @@
 const products = [
   { id: 'p1', title: 'Conjunto Rendado Amarelo', price: 79.90, img: 'images/conjunto-amarelo.jpg' },
   { id: 'p2', title: 'Conjunto Azul Rendado (1)', price: 89.90, img: 'images/conjunto-azul-1.jpg' },
-  { id: 'p3', title: 'Conjunto Azul Rendado (2)', price: 89.90, img: 'images/conjunto-azul-2.jpg' },
+  { id: 'p3', title: 'Conjunto Azul Rendado (2)', price: 89.90, img: 'images/conjunto-amarelo.jpg' },
   { id: 'p4', title: 'Cuecas Lupo Kit', price: 99.90, img: 'images/cuecas-lupo.jpg' },
   { id: 'p5', title: 'Conjunto Coloridos', price: 149.90, img: 'images/conjunto-coloridos.jpg' },
   { id: 'p6', title: 'Conjunto Preto Elegance', price: 89.90, img: 'images/conjunto-preto.jpg' }
