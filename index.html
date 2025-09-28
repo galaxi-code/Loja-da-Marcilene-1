@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loja - Carrinho Funcional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Minha Loja — Galaxi Store</h1>
+      <div class="controls">
+        <input id="search" class="search" placeholder="Buscar produtos..." />
+        <button id="viewCartBtn" class="btn">Abrir Carrinho (<span id="cartCount">0</span>)</button>
+      </div>
+    </header>
+
+    <section id="products" class="grid" aria-live="polite"></section>
+
+    <p class="muted" style="margin-top:14px">Dica: faça upload das imagens na pasta <code>images/</code> do seu repositório e mantenha os nomes indicados no código.</p>
+  </div>
+
+  <!-- Carrinho -->
+  <aside id="cart" class="cart" aria-hidden="true" style="display:none">
+    <div class="cart-header">
+      <h2>Carrinho</h2>
+      <div class="cart-header-actions">
+        <button id="saveCart" class="ghost">Salvar</button>
+        <button id="closeCart" class="ghost">Fechar</button>
+        <button id="closeX" class="close-x" aria-label="Fechar carrinho">✕</button>
+      </div>
+    </div>
+    <div class="cart-list" id="cartList"></div>
+    <div class="footer">
+      <div>
+        <div class="muted">Total</div>
+        <div id="total" class="big">R$ 0,00</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button id="clearCart" class="ghost">Limpar</button>
+        <button id="checkout" class="btn">Finalizar Compra</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
